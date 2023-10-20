@@ -789,11 +789,7 @@ namespace Flarial.Launcher
 
                 await Minecraft.WaitForModules();
                
-                CustomDialogBox MessageBox = new CustomDialogBox("test",
-                    Insertion.Insert(pathToExecute).ToString(),
-                    "MessageBox");
-                MessageBox.ShowDialog();
-               
+            return;
             }
             else
                 {
